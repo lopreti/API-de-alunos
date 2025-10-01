@@ -11,6 +11,7 @@ const API = 'http://localhost:3000/alunos';
 async function carregarAluno() {
     if (!id) {
         alert("Nenhum aluno selecionado");
+        window.location.href = "index.html"
         return;
     }
 
